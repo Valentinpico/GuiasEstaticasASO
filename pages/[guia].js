@@ -27,7 +27,7 @@ const Tareas = () => {
             </div>
             <div className=" rounded card-img-top">
               <Image
-                src={"https://github.com/Valentinpico/GuiasEstaticasASO/blob/main/public/img/"+ guia.carpeta + "/" + e.img + ".png"}
+                src={"/../public/img/"+ guia.carpeta + "/" + e.img + ".png"}
                 width={500}
                 height={500}
                 layout="responsive"

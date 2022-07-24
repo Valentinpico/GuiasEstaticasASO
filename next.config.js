@@ -1,6 +1,5 @@
 module.exports = {
-    images: {
-      loader: 'imgix',
-      path: '/../public/img',
-    },
-  }
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
+};

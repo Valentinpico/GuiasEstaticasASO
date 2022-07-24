@@ -4,6 +4,7 @@ import { Data } from "../data/data";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
+
 const Tareas = () => {
   const router = useRouter();
   const [guia, setGuias] = useState({});

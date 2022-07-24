@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
-import Image from "next/image";
-
+import Image from "next/image"; 
 const index = () => {
   return (
     <>
@@ -11,7 +10,7 @@ const index = () => {
         <div className="fs-2">Aplicacion de sistemas operativos</div>
         <div className="img">
           <Image
-            src={"/../public/portada.jpg"}
+            src={"https://res.cloudinary.com/digbgoats/image/upload/v1658625792/img/AP/AP7_uyky0p.png"}
             width={800}
             height={400}
             alt={"imagen de guia"}

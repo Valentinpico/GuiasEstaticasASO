@@ -755,10 +755,10 @@ export const Data = [
 
   {
     titulo: "Bind",
-    carpeta: "DHCP",
+    carpeta: "BIND",
     pasos: [
       {
-        paso: "1.- Descargamos Bind y su paquete bind-utils con los comandos: -sudo dnf install bind   -sudo dnf install bind-utils Vemos que con el comando rpm -qa (y colocando el nombre de los paquetes que instalamos), nos saldrá que tenemos instalado de manera correcta bind y bind-utils.",
+        paso: "1.- Descargamos Bind y su paquete bind-utils con los comandos: -sudo dnf install bind   -sudo dnf install bind-utils",
         img: "BIND1",
       },
  

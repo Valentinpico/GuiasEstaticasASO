@@ -10,7 +10,7 @@ const index = () => {
         <div className="fs-2">Aplicacion de sistemas operativos</div>
         <div className="img">
           <Image
-            src={"https://res.cloudinary.com/digbgoats/image/upload/v1658625792/img/AP/AP7_uyky0p.png"}
+            src={"https://res.cloudinary.com/digbgoats/image/upload/v1658625840/portada_kfrnni.jpg"}
             width={800}
             height={400}
             alt={"imagen de guia"}

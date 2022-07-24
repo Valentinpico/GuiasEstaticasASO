@@ -4,7 +4,6 @@ import { Data } from "../data/data";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-
 const Tareas = () => {
   const router = useRouter();
   const [guia, setGuias] = useState({});
@@ -28,7 +27,12 @@ const Tareas = () => {
             </div>
             <div className=" rounded card-img-top">
               <Image
-                src={"/../public/img/"+ guia.carpeta + "/" + e.img + ".png"}
+                priority
+                src={
+                  "https://res.cloudinary.com/digbgoats/image/upload/img/" +
+                  guia.carpeta +
+                  "/"+e.img+".png"
+                }
                 width={500}
                 height={500}
                 layout="responsive"
